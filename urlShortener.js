@@ -1,4 +1,4 @@
-let url = "http://localhost:3000";
+let url = "https://devmohan-urlshortner-backend.herokuapp.com";
 /**
  * Function to convert long URL to short URL and update the same in short URL textbox
  */
@@ -65,5 +65,5 @@ function onCopy() {
   }
 
   function checkDashboard() {
-      window.location.href = "http://127.0.0.1:5500/frontend/dashboard.html";
+      window.location.href = "https://suspicious-wozniak-c5a312.netlify.app/dashboard.html";
   }
