@@ -1,4 +1,4 @@
-let url = 'http://localhost:3000';
+let url = 'https://devmohan-urlshortner-backend.herokuapp.com';
 
 function onLoad(){
     fetch(url + `/get_count`, {
@@ -24,5 +24,5 @@ function onLoad(){
 onLoad();
 
 function startShortening() {
-    window.location.href = "http://127.0.0.1:5500/frontend/urlShortner.html";
+    window.location.href = "https://suspicious-wozniak-c5a312.netlify.app/urlShortner.html";
 }
