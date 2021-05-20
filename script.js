@@ -1,4 +1,4 @@
-let url = "http://localhost:3000"
+let url = "https://devmohan-urlshortner-backend.herokuapp.com"
 
 function onLoad() {
     let resetURL = new URL(window.location.href)
@@ -50,7 +50,7 @@ function onLogIn() {
             alertDiv.setAttribute("role","alert" );
             alertDiv.setAttribute("id","alertDiv" );
             if(data.message === "Login success"){
-                window.location.href =  "http://127.0.0.1:5500/frontend/urlShortner.html";
+                window.location.href =  "https://suspicious-wozniak-c5a312.netlify.app/urlShortner.html";
             }
             else if(data.message === "Account not activated"){
                 alertDiv.setAttribute("class","alert alert-danger" );
