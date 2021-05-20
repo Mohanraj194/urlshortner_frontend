@@ -1,4 +1,4 @@
-let url = "http://localhost:3000"
+let url = "https://devmohan-urlshortner-backend.herokuapp.com"
 let id = ""
 function onLoad(){
     let resetURL = new URL(window.location.href)
@@ -26,7 +26,7 @@ function onLoad(){
                 document.getElementById("activationDiv").append(alertDiv);
                 document.getElementById("activationStatusDiv").innerText = "Activated Successfully";
 
-                window.location.href = "http://127.0.0.1:5500/frontend/index.html";
+                window.location.href = "https://suspicious-wozniak-c5a312.netlify.app";
             } 
             else {
                 document.getElementById("activationStatusDiv").innerText = "Activation Failed";
